@@ -60,9 +60,19 @@ export function getNavigation(): NavSection[] {
       items: getItemsFromDir('docs/cross-cutting'),
     },
     {
+      title: 'Marketplace Workflows',
+      icon: 'Workflow',
+      items: getItemsFromDir('docs/marketplace-workflows'),
+    },
+    {
       title: 'Copper CRM',
       icon: 'Database',
       items: getItemsFromDir('docs/copper-crm'),
+    },
+    {
+      title: 'Google Drive',
+      icon: 'FolderOpen',
+      items: getItemsFromDir('docs/google-drive'),
     },
     {
       title: 'Checklists',

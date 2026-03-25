@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getMarkdownContent, getNavigation } from '@/lib/wiki'
+import { getMarkdownContent, getNavigation, getAllSlugs } from '@/lib/wiki'
 import { getStageStory } from '@/lib/stakeholders'
 import { StageIntro } from '@/components/stage-intro'
 import { MDXRemote } from 'next-mdx-remote/rsc'
@@ -96,6 +96,10 @@ function getAdjacentPages(slug: string[]) {
     prev: currentIndex > 0 ? allPages[currentIndex - 1] : null,
     next: currentIndex < allPages.length - 1 ? allPages[currentIndex + 1] : null,
   }
+}
+
+export function generateStaticParams() {
+  return getAllSlugs().map((slug) => ({ slug }))
 }
 
 export default async function WikiPage({
