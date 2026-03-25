@@ -79,10 +79,10 @@ export const challengeStageStories: Record<string, StageStory> = {
     exitCriteria: ['Challenge live on marketplace', 'Signed NDAs collected and sent to ACC-RI', 'Signed AOR collected and sent to ACC-RI', 'Submission deadline reached'],
   },
   '04-evaluation': {
-    summary: 'Government SMEs evaluate submissions and make a selection decision. ONI facilitates the review process, normalizes submissions, and prepares selection notifications.',
+    summary: 'ONI pre-fills the Technical Evaluation document with vendor names and submission dates, then sends it to the Gov Customer to complete their evaluation and make a selection decision.',
     involved: ['oni', 'gov', 'vendor'],
-    keyDocuments: ['Evaluation Matrix', 'Scoring Sheets', 'Selection Rationale', 'Debrief Documents'],
-    exitCriteria: ['All proposals evaluated', 'Winners selected', 'Debriefs scheduled'],
+    keyDocuments: ['Pre-fill Technical Evaluation with vendor names and submission dates', 'Send pre-filled evaluation doc to Gov Customer', '[Run AI Grader on submissions](/docs/marketplace-workflows/05-ai-grader)', '[Build Challenge Closeout Package](/docs/marketplace-workflows/02-challenge-closeout-package)'],
+    exitCriteria: ['Gov Customer completed Technical Evaluation and Award Selection Recommendation', 'Gov Customer made vendor selection'],
   },
   '05-vendor-coordination': {
     summary: 'After selection, ONI coordinates between the vendor, government, and ACC-RI to align the proposal with the SOW and gather all documents needed for contract execution. This stage often involves multiple revision cycles.',

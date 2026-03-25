@@ -1,68 +1,66 @@
 # Evaluation
 
 ## Overview
-Government SMEs review submissions and make selection decisions, potentially aided by ONI rubric support. Review may involve SME evaluation panels and ONI AI-powered rubric generation if appropriate.
+ONI pre-fills the Technical Evaluation and Award Selection Recommendation document with vendor names and submission dates from the marketplace, then sends it to the Gov Customer to score submissions, document their rationale, and make a selection decision.
 
 ## Documents Needed to Proceed to Vendor Coordination
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| Evaluation Tracker / Rubric | Scoring framework for submissions | ONI PM + Government | — |
-| Down-Select Memo / Decision Summary | Record of selection rationale | Government (with ONI support) | — |
-| Selected Vendor Notification Draft | Inform winning vendor | ONI PM | — |
-| Unsuccessful Vendor Notification Draft | Inform non-selected vendors | ONI PM | — |
-
-## Key Tasks
-
-- Confirm evaluators and selection authority
-- Prepare submission package(s) for government review
-- Normalize submissions as needed for easier comparison
-- Track reviewer comments and due dates
-- Facilitate down-select meetings
-- Document who is selected, not selected, or needs clarification
-- Prepare selection notification and post-selection action list
-- Preserve record of selection rationale
+| Technical Evaluation / Award Selection Recommendation | Pre-filled by ONI with vendor names and submission dates; Gov Customer completes evaluation and selection | ONI PM → Gov Customer | [Google Doc](https://docs.google.com/document/d/1Ptuns28PMSY-cE2HE0RkFZp_lcpjvYXd/edit?usp=sharing&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 ## Email Templates
 
 <details>
-<summary>Submissions Ready for Review &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+<summary>Challenge Closeout Package to Gov Customer &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
 
-**Subject:** Submissions Ready for Review – [Challenge Title]
+**Subject:** [Challenge Title] – Closeout Package for Evaluation
 
-**To:** <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-oni">ONI</span>
+**To:** <span class="badge badge-gov">Gov Customer</span>
 
 ```
-The submission window for [challenge title] has closed. [X] submissions were received.
+Good afternoon [Gov Customer Name],
 
-Attached is the review package including:
-- All submissions (normalized format)
-- Evaluation rubric/criteria
-- Review deadline: [date]
+I packaged the following [Challenge Title] challenge package
+documents, and they are attached to this email.
 
-Please flag whether any selected vendor's proposal needs refinement against LOEs before we proceed to vendor coordination.
+Please update and return attached documents:
+1. Technical Evaluation and Award Selection Recommendation
+   (For you to document your submission evaluations and identify
+   your selection)
+2. Challenge Overview
+3. Proposals (Total: [X] proposals)
+
+Once you make your selection please let us know and we will start
+the negotiation process and the transition timeline.
+
+If you have evaluators who have not completed NDAs or have not
+designated an AOR, let me know and I can send those templates again.
 ```
 
 </details>
 
 <details>
-<summary>Selection Confirmation Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+<summary>Selection Announcement to ACC-RI &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-acc-ri">ACC-RI</span></summary>
 
-**Subject:** Selection Confirmation Needed – [Challenge Title]
+**Subject:** Vendor Selection – [Challenge Title]
 
-**To:** <span class="badge badge-gov">Gov Customer</span>
+**To:** <span class="badge badge-acc-ri">ACC-RI</span>
+cc: <span class="badge badge-gov">Gov Customer</span>
 
 ```
-Based on the evaluation, the following submission(s) are recommended for selection:
+The Gov Customer has completed their evaluation for the
+[Challenge Title] challenge and selected the following vendor(s):
 
-1. [Vendor Name] – [Brief summary of approach]
-   - Strengths: [key strengths]
-   - Considerations: [any noted gaps]
+1. [Vendor Name]
 
-Please confirm:
-- Selection decision
-- Any required proposal/SOW updates before contract package moves forward
-- Whether additional vendors should be considered for separate LOEs
+We will notify the vendor(s) of selection and collect their
+Reps & Certs and W-9.
+
+Please let us know if you need anything additional from us at
+this stage (signed NDAs, Market Research Report, AOR appointment,
+etc.) and we will ensure the package is complete before sending
+the full award documentation.
 ```
 
 </details>
