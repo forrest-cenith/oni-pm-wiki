@@ -3,53 +3,62 @@
 ## Overview
 ONI converts government source material into a publishable challenge using four primary fields: Description, Overall Objective, Problem Statement, and Desired Solution. The draft should be broad enough to attract varied submissions but still specific enough to describe the operational need.
 
-## Key Tasks / Checklist
-- [ ] Review all source material from government
-- [ ] Strip FAR procurement disclaimers and reframe appropriately
-- [ ] Draft the challenge using the four required fields (Description, Overall Objective, Problem Statement, Desired Solution)
-- [ ] Ensure the challenge emphasizes novel approaches and fits the prototype framework
-- [ ] Ensure the challenge casts a wide net and focuses on the need, not the exact solution
-- [ ] Draft or refine eligibility and submission guidelines
-- [ ] Set response length and requested proposal components
-- [ ] Draft anticipated timeline for down-select
-- [ ] Align contracting path language with ONIX OTA / ACC-RI coordination
-- [ ] Determine whether LOEs are needed and if so, draft severable LOEs
-- [ ] Obtain internal review before sending to government
+## Documents Needed to Proceed to Challenge Live
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| ONIX Marketplace Challenge Template | Public-facing challenge | ONI PM |
-| LOE Template – ONIX OTA | Specific severable work packages | ONI PM + Government |
-| Internal Review Copy / Redline Draft | Internal quality control before customer release | ONI PM / Senior Analyst |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| ONIX Marketplace Challenge Template | Public-facing challenge | ONI PM | — |
+| LOE Template – ONIX OTA | Specific severable work packages | ONI PM + Government | — |
+| Internal Review Copy / Redline Draft | Internal quality control before customer release | ONI PM / Senior Analyst | — |
+
+## Key Tasks
+
+- **If not done during OTA Intro Call:** Create the [Google Drive folder](/docs/google-drive/folder-structure) and [Copper CRM card](/docs/copper-crm/tracking-projects) for this challenge
+- Review all source material from government
+- Strip FAR procurement disclaimers and reframe appropriately
+- Draft the challenge using the four required fields (Description, Overall Objective, Problem Statement, Desired Solution)
+- Ensure the challenge emphasizes novel approaches and fits the prototype framework
+- Ensure the challenge casts a wide net and focuses on the need, not the exact solution
+- Draft or refine eligibility and submission guidelines
+- Set response length and requested proposal components
+- Draft anticipated timeline for down-select
+- Align contracting path language with ONIX OTA / ACC-RI coordination
+- Determine whether LOEs are needed and if so, draft severable LOEs
+- Obtain internal review before sending to government
 
 ## Email Templates
 
-### Draft Challenge for Government Review
-**Subject:** Draft Marketplace Challenge for Review – [Challenge Title]
-**To:** Government sponsor, government technical lead, internal reviewer as needed
+<details>
+<summary>Draft Challenge for Government Review &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
 
-**Body:**
+**Subject:** Draft Marketplace Challenge for Review – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
 ```
 Please find attached the draft marketplace challenge for [topic/program].
 
 Note: This draft is intentionally broad to encourage innovative submissions from a diverse vendor pool.
 
 Open questions for your review:
-- [ ] Should ROM be included in the public posting?
-- [ ] Are the timeline expectations accurate?
-- [ ] Should evaluation criteria be stated publicly or held internal?
-- [ ] Should LOEs be included with the challenge posting?
-- [ ] Are there formatting requirements for submissions?
+- Should ROM be included in the public posting?
+- Are the timeline expectations accurate?
+- Should evaluation criteria be stated publicly or held internal?
+- Should LOEs be included with the challenge posting?
+- Are there formatting requirements for submissions?
 
 Please provide feedback by [date] so we can finalize and post on schedule.
 ```
 
-### Internal Review Request
-**Subject:** Internal Review Request – Challenge Draft for [Gov Office / Topic]
-**To:** ONI senior analyst / internal SMEs
+</details>
 
-**Body:**
+<details>
+<summary>Internal Review Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-oni">ONI</span></summary>
+
+**Subject:** Internal Review Request – Challenge Draft for [Gov Office / Topic]
+
+**To:** <span class="badge badge-oni">ONI</span>
+
 ```
 Please review the attached challenge draft for:
 - OTA/prototype alignment
@@ -60,6 +69,8 @@ Please review the attached challenge draft for:
 
 Target turnaround: [date]
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -74,10 +85,8 @@ Target turnaround: [date]
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| ONI PM | Primary drafter |
-| Government Sponsor / Technical Lead | Validates mission accuracy |
-| ONI Senior Analyst | Improves OTA framing and prototype emphasis |
-| Legal / Contracts Reviewers | Ensure challenge language supports downstream award path (optional) |
+| <span class="badge badge-oni">ONI</span> | Drafts challenge, ensures OTA/prototype framing |
+| <span class="badge badge-gov">Gov Customer</span> | Validates mission accuracy |
 
 ## Typical Timeline
 - **First draft:** Within a few business days after receipt of source docs

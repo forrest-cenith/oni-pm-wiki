@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wiki-dev",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev"],
+      "port": 3001,
+      "cwd": "/Users/forrestparker/Desktop/oni-pm-wiki"
+    }
+  ]
+}

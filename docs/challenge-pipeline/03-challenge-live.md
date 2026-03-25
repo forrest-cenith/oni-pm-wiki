@@ -3,30 +3,34 @@
 ## Overview
 The challenge is posted on the marketplace and becomes discoverable to industry. Industry account holders can access the challenge and download associated LOEs.
 
-## Key Tasks / Checklist
-- [ ] Confirm final approved challenge text
-- [ ] Upload challenge and supporting LOEs to marketplace
-- [ ] Verify submission instructions are clear: response length, company page, past performance page, technical approach, deliverables, schedule, payment schedule, data rights, ROM by milestone
-- [ ] Confirm challenge close date / response window
-- [ ] Ensure government reviewers know when submissions will arrive
-- [ ] Monitor industry questions and route clarifications to government
-- [ ] Keep records of amendments or clarifications issued
+## Documents Needed to Proceed to Evaluation
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| Final Marketplace Challenge | Published challenge text | ONI PM |
-| Final LOEs | Supporting work packages | ONI PM + Government |
-| Industry Q&A / Amendment Log | Record of all clarifications issued | ONI PM |
-| Submission Intake Tracker | Track incoming industry responses | ONI PM |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| Final Marketplace Challenge | Published challenge text | ONI PM | — |
+| Final LOEs | Supporting work packages | ONI PM + Government | — |
+| Industry Q&A / Amendment Log | Record of all clarifications issued | ONI PM | — |
+| Submission Intake Tracker | Track incoming industry responses | ONI PM | — |
+
+## Key Tasks
+
+- Confirm final approved challenge text
+- Upload challenge and supporting LOEs to marketplace
+- Verify submission instructions are clear: response length, company page, past performance page, technical approach, deliverables, schedule, payment schedule, data rights, ROM by milestone
+- Confirm challenge close date / response window
+- Ensure government reviewers know when submissions will arrive
+- Monitor industry questions and route clarifications to government
+- Keep records of amendments or clarifications issued
 
 ## Email Templates
 
-### Challenge Now Live Notification
-**Subject:** Challenge Now Live – [Challenge Title]
-**To:** Government sponsor, reviewers, relevant ONI team
+<details>
+<summary>Challenge Now Live Notification &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
 
-**Body:**
+**Subject:** Challenge Now Live – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-oni">ONI</span>
+
 ```
 The marketplace challenge for [topic] is now live.
 
@@ -38,11 +42,15 @@ Key details:
 Please be prepared to begin evaluating submissions after the close date. We will route submissions to the review team as they arrive / after the window closes.
 ```
 
-### Industry Clarification Routing
-**Subject:** Industry Question / Clarification Needed – [Challenge Title]
-**To:** Government technical lead and PM stakeholders
+</details>
 
-**Body:**
+<details>
+<summary>Industry Clarification Routing &nbsp; <span class="badge badge-vendor">Vendor</span> → <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+
+**Subject:** Industry Question / Clarification Needed – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
 ```
 We received the following question from an industry respondent:
 
@@ -52,6 +60,8 @@ Recommended response: [Draft answer that preserves broad competition and avoids 
 
 Please confirm or revise by [date] so we can post the clarification.
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -65,14 +75,16 @@ Please confirm or revise by [date] so we can post the clarification.
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| Industry Respondents | Submit concepts/proposals |
-| ONI PM | Marketplace administrator and clarification manager |
-| Government Reviewers | Prepare for down-select |
-| ONI Operations / Platform Staff | Publish and maintain listing |
+| <span class="badge badge-vendor">Vendor</span> | Submits proposals |
+| <span class="badge badge-oni">ONI</span> | Manages posting and routes clarifications |
+| <span class="badge badge-gov">Gov Customer</span> | Prepares for down-select |
 
 ## Typical Timeline
 - **Response window:** Typically 30-45 days from posting to down-select
 - Template anticipates rapid down-select within this window
+
+## Related Workflows
+- [Posting a Challenge](/docs/marketplace-workflows/01-posting-a-challenge) — step-by-step marketplace posting guide
 
 ## Tips & Lessons Learned
 - The more precise the LOEs, the more likely ONI will later need to ask vendors for proposal updates to match government scope

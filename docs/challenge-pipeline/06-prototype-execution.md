@@ -3,33 +3,37 @@
 ## Overview
 The prototype work under the OTA begins. LOEs or equivalent work statements become the operative basis for execution, milestones, and deliverables. The emphasis remains on testing, validating, demonstrating, or refining novel capability in mission-relevant conditions.
 
-## Key Tasks / Checklist
-- [ ] Confirm fully executed agreement and start authority
-- [ ] Confirm final scope by LOE
-- [ ] Establish deliverable schedule and milestones
-- [ ] Align payment schedule to milestones/CLINs
-- [ ] Set recurring PM cadence with vendor and customer
-- [ ] Track risks, changes, and dependencies
-- [ ] Ensure prototype results are documented for transition decisions
-- [ ] Track any government-furnished support, test events, or user feedback requirements
+## Documents Needed to Proceed to Production Execution
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| Executed Agreement / Project Agreement | Governing contract | ACC-RI |
-| Final SOW / LOEs | Operative scope | ONI PM + Government |
-| Integrated Schedule / Milestone Tracker | Track delivery against plan | ONI PM |
-| Deliverable Tracker | Log deliverable status | ONI PM |
-| Risk / Issue Log | Track blockers and mitigations | ONI PM |
-| Meeting Notes / Action Tracker | Record decisions and action items | ONI PM |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| Executed Agreement / Project Agreement | Governing contract | ACC-RI | — |
+| Final SOW / LOEs | Operative scope | ONI PM + Government | — |
+| Integrated Schedule / Milestone Tracker | Track delivery against plan | ONI PM | — |
+| Deliverable Tracker | Log deliverable status | ONI PM | — |
+| Risk / Issue Log | Track blockers and mitigations | ONI PM | — |
+| Meeting Notes / Action Tracker | Record decisions and action items | ONI PM | — |
+
+## Key Tasks
+
+- Confirm fully executed agreement and start authority
+- Confirm final scope by LOE
+- Establish deliverable schedule and milestones
+- Align payment schedule to milestones/CLINs
+- Set recurring PM cadence with vendor and customer
+- Track risks, changes, and dependencies
+- Ensure prototype results are documented for transition decisions
+- Track any government-furnished support, test events, or user feedback requirements
 
 ## Email Templates
 
-### Prototype Kickoff
-**Subject:** Prototype Kickoff – [Project Name]
-**To:** Vendor, government sponsor, ONI PM team, ACC-RI as needed
+<details>
+<summary>Prototype Kickoff &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span> + <span class="badge badge-gov">Gov Customer</span> + <span class="badge badge-acc-ri">ACC-RI</span></summary>
 
-**Body:**
+**Subject:** Prototype Kickoff – [Project Name]
+
+**To:** <span class="badge badge-vendor">Vendor</span>, <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-oni">ONI</span>, <span class="badge badge-acc-ri">ACC-RI</span>
+
 ```
 The agreement for [project name] is fully executed and work may begin.
 
@@ -48,11 +52,15 @@ Points of contact:
 Immediate dependencies or actions needed: [list any]
 ```
 
-### Execution Status Update
-**Subject:** Action Items and Milestones from Prototype Sync – [Project Name]
-**To:** All active stakeholders
+</details>
 
-**Body:**
+<details>
+<summary>Execution Status Update &nbsp; <span class="badge badge-oni">ONI</span> → All Stakeholders</summary>
+
+**Subject:** Action Items and Milestones from Prototype Sync – [Project Name]
+
+**To:** <span class="badge badge-oni">ONI</span>, <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-vendor">Vendor</span>, <span class="badge badge-acc-ri">ACC-RI</span>
+
 ```
 Summary from [date] sync:
 
@@ -63,10 +71,12 @@ Blockers:
 - [list any blockers with owners]
 
 Action items:
-- [ ] [Action] – Owner: [name] – Due: [date]
+- [Action] – Owner: [name] – Due: [date]
 
 Next sync: [date/time]
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -80,10 +90,10 @@ Next sync: [date/time]
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| Vendor PM / Technical Lead | Executes work |
-| Government COR / Technical Lead | Receives progress, provides feedback, validates utility |
-| ONI PM | Monitors performance and coordinates issues |
-| ACC-RI | Contract administration interface as needed |
+| <span class="badge badge-vendor">Vendor</span> | Executes work |
+| <span class="badge badge-gov">Gov Customer</span> | Provides feedback, validates utility |
+| <span class="badge badge-oni">ONI</span> | Monitors and coordinates |
+| <span class="badge badge-acc-ri">ACC-RI</span> | Contract administration as needed |
 
 ## Typical Timeline
 - Depends on period of performance proposed by vendor and accepted by government

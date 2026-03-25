@@ -3,31 +3,35 @@
 ## Overview
 Government SMEs review submissions and make selection decisions, potentially aided by ONI rubric support. Review may involve SME evaluation panels and ONI AI-powered rubric generation if appropriate.
 
-## Key Tasks / Checklist
-- [ ] Confirm evaluators and selection authority
-- [ ] Prepare submission package(s) for government review
-- [ ] Normalize submissions as needed for easier comparison
-- [ ] Track reviewer comments and due dates
-- [ ] Facilitate down-select meetings
-- [ ] Document who is selected, not selected, or needs clarification
-- [ ] Prepare selection notification and post-selection action list
-- [ ] Preserve record of selection rationale
+## Documents Needed to Proceed to Vendor Coordination
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| Evaluation Tracker / Rubric | Scoring framework for submissions | ONI PM + Government |
-| Down-Select Memo / Decision Summary | Record of selection rationale | Government (with ONI support) |
-| Selected Vendor Notification Draft | Inform winning vendor | ONI PM |
-| Unsuccessful Vendor Notification Draft | Inform non-selected vendors | ONI PM |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| Evaluation Tracker / Rubric | Scoring framework for submissions | ONI PM + Government | — |
+| Down-Select Memo / Decision Summary | Record of selection rationale | Government (with ONI support) | — |
+| Selected Vendor Notification Draft | Inform winning vendor | ONI PM | — |
+| Unsuccessful Vendor Notification Draft | Inform non-selected vendors | ONI PM | — |
+
+## Key Tasks
+
+- Confirm evaluators and selection authority
+- Prepare submission package(s) for government review
+- Normalize submissions as needed for easier comparison
+- Track reviewer comments and due dates
+- Facilitate down-select meetings
+- Document who is selected, not selected, or needs clarification
+- Prepare selection notification and post-selection action list
+- Preserve record of selection rationale
 
 ## Email Templates
 
-### Submissions Ready for Review
-**Subject:** Submissions Ready for Review – [Challenge Title]
-**To:** Government evaluators, sponsor, ONI team
+<details>
+<summary>Submissions Ready for Review &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
 
-**Body:**
+**Subject:** Submissions Ready for Review – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-oni">ONI</span>
+
 ```
 The submission window for [challenge title] has closed. [X] submissions were received.
 
@@ -39,11 +43,15 @@ Attached is the review package including:
 Please flag whether any selected vendor's proposal needs refinement against LOEs before we proceed to vendor coordination.
 ```
 
-### Selection Confirmation Request
-**Subject:** Selection Confirmation Needed – [Challenge Title]
-**To:** Government selection authority
+</details>
 
-**Body:**
+<details>
+<summary>Selection Confirmation Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+
+**Subject:** Selection Confirmation Needed – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
 ```
 Based on the evaluation, the following submission(s) are recommended for selection:
 
@@ -52,10 +60,12 @@ Based on the evaluation, the following submission(s) are recommended for selecti
    - Considerations: [any noted gaps]
 
 Please confirm:
-- [ ] Selection decision
-- [ ] Any required proposal/SOW updates before contract package moves forward
-- [ ] Whether additional vendors should be considered for separate LOEs
+- Selection decision
+- Any required proposal/SOW updates before contract package moves forward
+- Whether additional vendors should be considered for separate LOEs
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -68,14 +78,17 @@ Please confirm:
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| Government SMEs / Program Office | Technical evaluation |
-| Government Business Lead | Affordability and execution practicality |
-| ONI PM | Process manager and communication hub |
-| Selected Vendor(s) | May be asked for post-selection updates |
+| <span class="badge badge-gov">Gov Customer</span> | Evaluates and selects |
+| <span class="badge badge-oni">ONI</span> | Facilitates review process |
+| <span class="badge badge-vendor">Vendor</span> | May be asked for post-selection updates |
 
 ## Typical Timeline
 - **Target:** 30-45 days from challenge posting to down-select
 - Evaluation itself should be a subset of this window
+
+## Related Workflows
+- [Challenge Closeout Package](/docs/marketplace-workflows/02-challenge-closeout-package) — preparing the ACC-RI package after evaluation
+- [AI Grader](/docs/marketplace-workflows/05-ai-grader) — using AI scoring for submissions
 
 ## Tips & Lessons Learned
 - Selection is not the end of scoping — frequently it triggers another documentation cycle

@@ -3,33 +3,37 @@
 ## Overview
 After selection, ONI coordinates with the selected vendor to gather/update the documents needed for contract execution and aligns them to the government SOW/LOEs and ACC-RI requirements. This stage often involves multiple revision cycles.
 
-## Key Tasks / Checklist
-- [ ] Notify selected vendor
-- [ ] Request updated proposal based on the government SOW/LOEs
-- [ ] Request vendor administrative package: W-9, Reps and certs, any other required forms
-- [ ] Review updated proposal for alignment with government SOW
-- [ ] Send package to ACC-RI / contracting contact
-- [ ] Confirm whether government has discrepancies or requested edits
-- [ ] Translate vague government feedback into concrete vendor action requests
-- [ ] Maintain written action tracker of: what changed, who owes what, when it is due
+## Documents Needed to Proceed to Prototype Execution
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| Updated Vendor Proposal | Revised to match government SOW | Vendor |
-| Vendor SOW / Revised SOW | Aligned scope document | Vendor + ONI PM |
-| W-9 | Tax identification | Vendor |
-| Reps and Certs | Vendor certifications | Vendor |
-| Coordination Timeline / Status Tracker | Track actions and deadlines | ONI PM |
-| Government SOW Comparison Notes | Identify gaps between proposal and SOW | ONI PM |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| Updated Vendor Proposal | Revised to match government SOW | Vendor | — |
+| Vendor SOW / Revised SOW | Aligned scope document | Vendor + ONI PM | — |
+| W-9 | Tax identification | Vendor | — |
+| Reps and Certs | Vendor certifications | Vendor | — |
+| Coordination Timeline / Status Tracker | Track actions and deadlines | ONI PM | — |
+| Government SOW Comparison Notes | Identify gaps between proposal and SOW | ONI PM | — |
+
+## Key Tasks
+
+- Notify selected vendor
+- Request updated proposal based on the government SOW/LOEs
+- Request vendor administrative package: W-9, Reps and certs, any other required forms
+- Review updated proposal for alignment with government SOW
+- Send package to ACC-RI / contracting contact
+- Confirm whether government has discrepancies or requested edits
+- Translate vague government feedback into concrete vendor action requests
+- Maintain written action tracker of: what changed, who owes what, when it is due
 
 ## Email Templates
 
-### Selection Notification & Document Request
-**Subject:** Selection Notification and Request for Updated Proposal – [Challenge Name]
-**To:** Selected vendor POC
+<details>
+<summary>Selection Notification & Document Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
 
-**Body:**
+**Subject:** Selection Notification and Request for Updated Proposal – [Challenge Name]
+
+**To:** <span class="badge badge-vendor">Vendor</span>
+
 ```
 Congratulations — your submission to [challenge name] has been selected for further development toward an award.
 
@@ -40,18 +44,22 @@ To continue the award process, please provide the following:
    - Confirm ROM and payment schedule alignment
 
 2. Administrative documents:
-   - [ ] W-9
-   - [ ] Reps and Certs
-   - [ ] [Any other required forms]
+   - W-9
+   - Reps and Certs
+   - [Any other required forms]
 
 Please return these materials by [date]. We will review and coordinate with the contracting office.
 ```
 
-### Package Submission to ACC-RI
-**Subject:** Submission of Updated SOW / Proposal for Review – [Vendor] / [Challenge]
-**To:** ACC-RI POC; cc government as appropriate
+</details>
 
-**Body:**
+<details>
+<summary>Package Submission to ACC-RI &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-acc-ri">ACC-RI</span></summary>
+
+**Subject:** Submission of Updated SOW / Proposal for Review – [Vendor] / [Challenge]
+
+**To:** <span class="badge badge-acc-ri">ACC-RI</span>; cc <span class="badge badge-gov">Gov Customer</span>
+
 ```
 Attached is the updated vendor package for [project name]:
 - Updated vendor proposal
@@ -62,23 +70,29 @@ Attached is the updated vendor package for [project name]:
 Please review and advise on any additional requirements or discrepancies.
 ```
 
-### SOW Discrepancy Clarification
-**Subject:** Clarification Needed on SOW Discrepancies – [Challenge / Vendor Name]
-**To:** Government program office and/or ACC-RI
+</details>
 
-**Body:**
+<details>
+<summary>SOW Discrepancy Clarification &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span> / <span class="badge badge-acc-ri">ACC-RI</span></summary>
+
+**Subject:** Clarification Needed on SOW Discrepancies – [Challenge / Vendor Name]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-acc-ri">ACC-RI</span>
+
 ```
 We understand there are discrepancies between the vendor's updated proposal and the government SOW.
 
 To provide the vendor with precise revision guidance, we need:
-- [ ] Specific sections or items that need correction
-- [ ] Redlines or bulletized required changes
-- [ ] Whether discrepancies are scope-related, cost-related, or administrative
+- Specific sections or items that need correction
+- Redlines or bulletized required changes
+- Whether discrepancies are scope-related, cost-related, or administrative
 
 ONI's current understanding: [state current understanding]
 
 Please provide specific guidance so we can issue a clear revision request to the vendor.
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -93,15 +107,20 @@ Please provide specific guidance so we can issue a clear revision request to the
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| Selected Vendor POC | Updates proposal and submits forms |
-| ONI PM | Quarterback for coordination |
-| ACC-RI POC | Receives package and routes/reviews for contract processing |
-| Government Technical/Business Lead | Validates SOW accuracy and scope alignment |
+| <span class="badge badge-vendor">Vendor</span> | Updates proposal, submits forms |
+| <span class="badge badge-oni">ONI</span> | Coordinates between all parties |
+| <span class="badge badge-acc-ri">ACC-RI</span> | Reviews package for contract processing |
+| <span class="badge badge-gov">Gov Customer</span> | Validates SOW and scope alignment |
 
 ## Typical Timeline
 - **Selection notice to updated vendor package:** Days to ~1 week
 - **Government/ACC-RI discrepancy identification:** May take additional weeks
 - **Realistic PM expectation:** 1-4 weeks for clean package alignment, longer if feedback is vague
+
+## Related Workflows
+- [Requesting Updated Proposal](/docs/marketplace-workflows/06-requesting-updated-proposal) — how to ask a vendor for a revised proposal
+- [Fair & Reasonable Pricing](/docs/marketplace-workflows/07-fair-and-reasonable-pricing) — requesting cost breakdown for F&R determination
+- [Requesting Reps & Certs](/docs/marketplace-workflows/08-requesting-reps-and-certs) — pre-award vendor documentation
 
 ## Tips & Lessons Learned
 - **Never tell a vendor "please revise" without giving exact instructions**

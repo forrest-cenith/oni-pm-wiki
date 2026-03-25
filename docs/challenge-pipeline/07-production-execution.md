@@ -3,27 +3,31 @@
 ## Overview
 A prototype that demonstrates utility may transition toward follow-on production or broader operational adoption. The LOE template directs teams to document outcomes to inform transition and follow-on production/refinement.
 
-## Key Tasks / Checklist
-- [ ] Confirm whether the customer wants follow-on production, additional prototype iteration, or closeout
-- [ ] Capture prototype evidence supporting transition
-- [ ] Coordinate any needed modifications, scale-up plans, or production agreements
-- [ ] Ensure lessons learned and final technical outcomes are documented
-- [ ] Confirm whether new funding or a new agreement path is needed
+## Documents Needed to Proceed to Archive
 
-## Documents Needed or Produced
-| Document | Purpose | Owner |
-|----------|---------|-------|
-| Transition Recommendation / Decision Brief | Summary of prototype outcomes supporting production decision | ONI PM + Government |
-| Follow-On Production Scope or Modification | Scope for production phase | ONI PM + Government + Vendor |
-| Performance Summary / Final Report | Record of prototype results | Vendor + ONI PM |
+| Document | Purpose | Owner | Template Link |
+|----------|---------|-------|---------------|
+| Transition Recommendation / Decision Brief | Summary of prototype outcomes supporting production decision | ONI PM + Government | — |
+| Follow-On Production Scope or Modification | Scope for production phase | ONI PM + Government + Vendor | — |
+| Performance Summary / Final Report | Record of prototype results | Vendor + ONI PM | — |
+
+## Key Tasks
+
+- Confirm whether the customer wants follow-on production, additional prototype iteration, or closeout
+- Capture prototype evidence supporting transition
+- Coordinate any needed modifications, scale-up plans, or production agreements
+- Ensure lessons learned and final technical outcomes are documented
+- Confirm whether new funding or a new agreement path is needed
 
 ## Email Templates
 
-### Transition Planning
-**Subject:** Transition Planning for Follow-On Production – [Project Name]
-**To:** Government sponsor, ACC-RI, ONI leadership, vendor
+<details>
+<summary>Transition Planning &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span> + <span class="badge badge-acc-ri">ACC-RI</span> + <span class="badge badge-vendor">Vendor</span></summary>
 
-**Body:**
+**Subject:** Transition Planning for Follow-On Production – [Project Name]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>, <span class="badge badge-acc-ri">ACC-RI</span>, <span class="badge badge-oni">ONI</span>, <span class="badge badge-vendor">Vendor</span>
+
 ```
 The prototype phase for [project name] has reached a transition decision point.
 
@@ -34,12 +38,14 @@ Prototype outcomes summary:
 Proposed follow-on action: [production / additional iteration / closeout]
 
 To proceed, we need to determine:
-- [ ] Contract vehicle or action required (modification, new agreement, separate production action)
-- [ ] Funding availability and timeline
-- [ ] Government decision authority confirmation
+- Contract vehicle or action required (modification, new agreement, separate production action)
+- Funding availability and timeline
+- Government decision authority confirmation
 
 Please advise on preferred path forward.
 ```
+
+</details>
 
 ## Common Hangups & Resolutions
 
@@ -52,10 +58,10 @@ Please advise on preferred path forward.
 ## Stakeholders & Roles
 | Stakeholder | Role |
 |-------------|------|
-| Government Sponsor / Program Office | Decides whether to transition |
-| Vendor | Provides scale-up/production inputs |
-| ONI PM | Organizes transition package |
-| ACC-RI | Executes production-related contracting action as applicable |
+| <span class="badge badge-gov">Gov Customer</span> | Decides whether to transition |
+| <span class="badge badge-vendor">Vendor</span> | Provides scale-up inputs |
+| <span class="badge badge-oni">ONI</span> | Organizes transition package |
+| <span class="badge badge-acc-ri">ACC-RI</span> | Executes production contracting |
 
 ## Typical Timeline
 - Highly variable — depends on funding, prototype results, and readiness
