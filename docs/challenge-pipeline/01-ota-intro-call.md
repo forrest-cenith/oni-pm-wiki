@@ -19,12 +19,6 @@ Initial engagement with the government customer to understand the operational pr
 | ONI Overview | Background on ONI's mission and capabilities | [PDF](https://drive.google.com/file/d/1hEJbL0feqq81Ib_N2bwjiB5EmuXjU8nu/view?usp=drive_link) |
 | ONIX Whitepaper | Detailed overview of the ONIX marketplace and OTA process | [PDF](https://drive.google.com/file/d/1zH48SQCzqQzv-8M2YvYffFPG4JmAZ6fU/view?usp=drive_link) |
 
-**Also produced during this stage:**
-
-| Document | Purpose | Owner | Template Link |
-|----------|---------|-------|---------------|
-| Intake Notes / Discovery Summary | Capture the government need, constraints, and acquisition intent | ONI PM | — |
-
 ## Set Up Tracking
 
 <div class="setup-cards">

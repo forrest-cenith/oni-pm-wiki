@@ -3,6 +3,18 @@
 ## Overview
 After selection, ONI coordinates with the selected vendor to gather/update the documents needed for contract execution and aligns them to the government SOW/LOEs and ACC-RI requirements. This stage often involves multiple revision cycles.
 
+## Action Items
+- Notify selected vendor of selection
+- Request updated proposal aligned to government SOW/LOEs
+- Request Reps & Certs and W-9 from vendor
+- Review updated proposal for scope/cost alignment
+- Send complete package to ACC-RI
+
+## Exit Criteria
+- Vendor notified of selection
+- Vendor signed Reps & Certs returned
+- Vendor updated proposal received and aligned to SOW
+
 ## Documents Needed to Proceed to Prototype Execution
 
 | Document | Purpose | Owner | Template Link |
@@ -10,20 +22,8 @@ After selection, ONI coordinates with the selected vendor to gather/update the d
 | Updated Vendor Proposal | Revised to match government SOW | Vendor | — |
 | Vendor SOW / Revised SOW | Aligned scope document | Vendor + ONI PM | — |
 | W-9 | Tax identification | Vendor | — |
-| Reps and Certs | Vendor certifications | Vendor | — |
+| Reps and Certs | Vendor certifications | Vendor | [PDF](https://drive.google.com/file/d/ONI_OTA_Agreement_Holder_Representations) |
 | Coordination Timeline / Status Tracker | Track actions and deadlines | ONI PM | — |
-| Government SOW Comparison Notes | Identify gaps between proposal and SOW | ONI PM | — |
-
-## Key Tasks
-
-- Notify selected vendor
-- Request updated proposal based on the government SOW/LOEs
-- Request vendor administrative package: W-9, Reps and certs, any other required forms
-- Review updated proposal for alignment with government SOW
-- Send package to ACC-RI / contracting contact
-- Confirm whether government has discrepancies or requested edits
-- Translate vague government feedback into concrete vendor action requests
-- Maintain written action tracker of: what changed, who owes what, when it is due
 
 ## Email Templates
 

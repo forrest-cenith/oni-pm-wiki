@@ -3,6 +3,17 @@
 ## Overview
 ONI pre-fills the Technical Evaluation and Award Selection Recommendation document with vendor names and submission dates from the marketplace, then sends it to the Gov Customer to score submissions, document their rationale, and make a selection decision.
 
+## Action Items
+- Pre-fill Technical Evaluation document with vendor names and submission dates
+- Send closeout package to Gov Customer for evaluation
+- Receive completed evaluation and selection from Gov Customer
+- Announce selection to ACC-RI
+
+## Exit Criteria
+- Gov Customer has completed the Technical Evaluation and Award Selection Recommendation
+- Gov Customer has made their selection
+- ACC-RI notified of selection
+
 ## Documents Needed to Proceed to Vendor Coordination
 
 | Document | Purpose | Owner | Template Link |
@@ -46,6 +57,7 @@ designated an AOR, let me know and I can send those templates again.
 **Subject:** Vendor Selection – [Challenge Title]
 
 **To:** <span class="badge badge-acc-ri">ACC-RI</span>
+
 cc: <span class="badge badge-gov">Gov Customer</span>
 
 ```
