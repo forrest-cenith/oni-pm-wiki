@@ -3,6 +3,27 @@ import { StakeholderBadge } from './stakeholder-badge'
 import { stakeholders, type StageStory } from '@/lib/stakeholders'
 import { ListChecks, ClipboardCheck, Check } from 'lucide-react'
 
+function ActionItem({ text }: { text: string }) {
+  // Support markdown link format: [label](href)
+  const linkMatch = text.match(/^\[(.+?)\]\((.+?)\)$/)
+  if (linkMatch) {
+    return (
+      <li className="flex items-center gap-2 text-sm">
+        <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+        <Link href={linkMatch[2]} className="text-primary underline underline-offset-2 hover:opacity-80">
+          {linkMatch[1]}
+        </Link>
+      </li>
+    )
+  }
+  return (
+    <li className="flex items-center gap-2 text-sm">
+      <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+      {text}
+    </li>
+  )
+}
+
 function ExitCriteriaItem({ criteria }: { criteria: string }) {
   // Support "label|link" format for linked exit criteria
   const pipeIndex = criteria.indexOf('|')
@@ -67,10 +88,7 @@ export function StageIntro({ story }: { story: StageStory }) {
               </h4>
               <ul className="space-y-2">
                 {story.keyDocuments.map((doc, i) => (
-                  <li key={i} className="flex items-center gap-2 text-sm">
-                    <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
-                    {doc}
-                  </li>
+                  <ActionItem key={i} text={doc} />
                 ))}
               </ul>
             </div>

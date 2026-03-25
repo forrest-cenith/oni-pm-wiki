@@ -7,22 +7,77 @@ The challenge is posted on the marketplace and becomes discoverable to industry.
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| Final Marketplace Challenge | Published challenge text | ONI PM | — |
-| Final LOEs | Supporting work packages | ONI PM + Government | — |
-| Industry Q&A / Amendment Log | Record of all clarifications issued | ONI PM | — |
-| Submission Intake Tracker | Track incoming industry responses | ONI PM | — |
-
-## Key Tasks
-
-- Confirm final approved challenge text
-- Upload challenge and supporting LOEs to marketplace
-- Verify submission instructions are clear: response length, company page, past performance page, technical approach, deliverables, schedule, payment schedule, data rights, ROM by milestone
-- Confirm challenge close date / response window
-- Ensure government reviewers know when submissions will arrive
-- Monitor industry questions and route clarifications to government
-- Keep records of amendments or clarifications issued
+| NDA Template | Signed by Gov Customer evaluators before reviewing submissions | ONI PM → Gov Customer | [Google Doc](https://docs.google.com/document/d/1QukLpOYinZG7zRXgWSTes-HtaqMyRjn8/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
+| AOR Roles & Responsibilities | Signed by Gov Customer to appoint Agreements Officer Representative | ONI PM → Gov Customer | [Google Doc](https://docs.google.com/document/d/17W6PRaZAUB3P3gEmD6C-szSM5j0CZGj-/edit?usp=sharing&ouid=116482897251814755876&rtpof=true&sd=true) |
+| Non-RTD&E Funding Justification | Required if Gov Customer is using non-RDTE funds | Gov Customer | [Google Doc](https://docs.google.com/document/d/1P5rC9AMcCCGStXk_hZEIqRbbDhRaKHNE/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 ## Email Templates
+
+<details>
+<summary>AOR Roles &amp; Responsibilities Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+
+**Subject:** AOR Appointment Form Needed – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
+```
+As we prepare for the evaluation and potential award phase of the
+[Challenge Title] challenge, we need a designated Agreements Officer
+Representative (AOR) from your team.
+
+Please complete the attached AOR Roles and Responsibilities form
+and return it to us at your earliest convenience. This appointment
+is required before we can move forward with any award actions
+through ACC-RI.
+
+If you have questions about the AOR role or who on your team should
+be designated, happy to discuss.
+```
+
+</details>
+
+<details>
+<summary>NDA Request for Evaluators &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+
+**Subject:** NDA Required for Challenge Evaluation – [Challenge Title]
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
+```
+Now that the challenge is live, we need signed NDAs from each
+evaluator who will review vendor submissions.
+
+Please have each evaluator complete the attached NDA template and
+return signed copies to us. We will collect these and submit them
+to ACC-RI the day before the challenge closes.
+
+Challenge close date: [date]
+NDA deadline: [day before close date]
+```
+
+</details>
+
+<details>
+<summary>NDAs &amp; AOR to ACC-RI &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-acc-ri">ACC-RI</span></summary>
+
+**Subject:** Signed Evaluator NDAs & AOR Appointment – [Challenge Title]
+
+**To:** <span class="badge badge-acc-ri">ACC-RI</span>
+
+```
+The [Challenge Title] challenge closes tomorrow. Attached are:
+
+1. Signed NDAs from the government evaluation team:
+   - [Evaluator Name] – signed [date]
+   - [Evaluator Name] – signed [date]
+
+2. Completed AOR Roles & Responsibilities form:
+   - [AOR Name], designated AOR for this effort
+
+Please let us know if anything additional is needed.
+```
+
+</details>
 
 <details>
 <summary>Challenge Now Live Notification &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
@@ -35,11 +90,32 @@ The challenge is posted on the marketplace and becomes discoverable to industry.
 The marketplace challenge for [topic] is now live.
 
 Key details:
+- Challenge link: [marketplace URL]
 - Close date: [date]
 - Expected evaluation window: [dates]
-- What industry sees publicly vs. after login: [brief description]
 
-Please be prepared to begin evaluating submissions after the close date. We will route submissions to the review team as they arrive / after the window closes.
+Feel free to share this challenge with vendors who may be interested
+in submitting proposals. Here is a draft email you can forward:
+
+---
+
+Subject: Invitation to Submit – [Challenge Title] on ONI Marketplace
+
+[Organization] has posted a challenge on the ONI Marketplace seeking
+innovative solutions for [brief problem description].
+
+To participate:
+1. Register for free: https://youtu.be/qSalcB-v3G0
+2. How to submit a proposal: https://youtu.be/tyKWaDXG1yg
+3. Challenge link: [marketplace URL]
+
+Submission deadline: [date]
+
+---
+
+Please also be prepared to begin evaluating submissions after the
+close date. We will route submissions to the review team after the
+window closes.
 ```
 
 </details>

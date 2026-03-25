@@ -7,24 +7,8 @@ ONI converts government source material into a publishable challenge using four 
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| ONIX Marketplace Challenge Template | Public-facing challenge | ONI PM | — |
-| LOE Template – ONIX OTA | Specific severable work packages | ONI PM + Government | — |
-| Internal Review Copy / Redline Draft | Internal quality control before customer release | ONI PM / Senior Analyst | — |
-
-## Key Tasks
-
-- **If not done during OTA Intro Call:** Create the [Google Drive folder](/docs/google-drive/folder-structure) and [Copper CRM card](/docs/copper-crm/tracking-projects) for this challenge
-- Review all source material from government
-- Strip FAR procurement disclaimers and reframe appropriately
-- Draft the challenge using the four required fields (Description, Overall Objective, Problem Statement, Desired Solution)
-- Ensure the challenge emphasizes novel approaches and fits the prototype framework
-- Ensure the challenge casts a wide net and focuses on the need, not the exact solution
-- Draft or refine eligibility and submission guidelines
-- Set response length and requested proposal components
-- Draft anticipated timeline for down-select
-- Align contracting path language with ONIX OTA / ACC-RI coordination
-- Determine whether LOEs are needed and if so, draft severable LOEs
-- Obtain internal review before sending to government
+| LOE and Marketplace Challenge Template (combined) | Public-facing challenge statement and severable work packages | ONI PM (drafts with government input) | [Google Doc](https://docs.google.com/document/d/1ckzEEqWsXD6J7rqkfsc_lQKxrRHFFOa1/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
+| Market Research Report Template | Documents the challenge landscape and supports the ACC-RI award package | ONI PM | [Google Doc](https://docs.google.com/document/d/1vS2kBLzg0H1kq2XCFTlIFSvMrrkew8LW/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 ## Email Templates
 
@@ -36,38 +20,38 @@ ONI converts government source material into a publishable challenge using four 
 **To:** <span class="badge badge-gov">Gov Customer</span>
 
 ```
-Please find attached the draft marketplace challenge for [topic/program].
+We took your inputs and have this final draft of the marketplace
+challenge for your final feedback and/or approval.
 
-Note: This draft is intentionally broad to encourage innovative submissions from a diverse vendor pool.
+When you are happy with it, we will send along to ACC-RI for their
+final approval and then stage it on the marketplace for publishing.
 
-Open questions for your review:
-- Should ROM be included in the public posting?
-- Are the timeline expectations accurate?
-- Should evaluation criteria be stated publicly or held internal?
-- Should LOEs be included with the challenge posting?
-- Are there formatting requirements for submissions?
-
-Please provide feedback by [date] so we can finalize and post on schedule.
+Please provide feedback by [date] so we can stay on track.
 ```
 
 </details>
 
 <details>
-<summary>Internal Review Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-oni">ONI</span></summary>
+<summary>Challenge Package to ACC-RI for Approval &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-acc-ri">ACC-RI</span></summary>
 
-**Subject:** Internal Review Request – Challenge Draft for [Gov Office / Topic]
+**Subject:** Challenge Package for Approval – [Challenge Title]
 
-**To:** <span class="badge badge-oni">ONI</span>
+**To:** <span class="badge badge-acc-ri">ACC-RI</span>
+cc: <span class="badge badge-oni">ONI</span>
 
 ```
-Please review the attached challenge draft for:
-- OTA/prototype alignment
-- Clarity of operational need
-- Whether the challenge is too specific or too broad
-- Whether the Desired Solution section narrows the field too much
-- General quality and readability
+The following challenge package is ready for your review and approval
+before we post to the marketplace:
 
-Target turnaround: [date]
+1. Draft Marketplace Challenge
+2. LOE / Challenge Detail Document
+3. Market Research Report
+
+Please review and confirm we are clear to post. If there are any
+required changes, please provide specific feedback so we can address
+them promptly.
+
+Target posting date: [date]
 ```
 
 </details>
@@ -87,6 +71,7 @@ Target turnaround: [date]
 |-------------|------|
 | <span class="badge badge-oni">ONI</span> | Drafts challenge, ensures OTA/prototype framing |
 | <span class="badge badge-gov">Gov Customer</span> | Validates mission accuracy |
+| <span class="badge badge-acc-ri">ACC-RI</span> | Approves challenge package before posting |
 
 ## Typical Timeline
 - **First draft:** Within a few business days after receipt of source docs

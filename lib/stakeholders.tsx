@@ -67,16 +67,16 @@ export const challengeStageStories: Record<string, StageStory> = {
     exitCriteria: ['Google Drive folder created|/docs/google-drive/folder-structure', 'Copper card created|/docs/copper-crm/tracking-projects', 'OTA Intro Call follow-up email sent|#email-followup'],
   },
   '02-drafting-challenge': {
-    summary: 'ONI drafts the public-facing challenge from government source materials, keeping it broad and prototype-focused. Internal review sharpens the OTA framing before sending to the customer for approval.',
-    involved: ['oni', 'gov'],
-    keyDocuments: ['Challenge Overview', 'Evaluation Criteria', 'LOE Templates', 'Timeline & Milestones'],
-    exitCriteria: ['Challenge document drafted', 'Evaluation criteria finalized', 'Government approval obtained'],
+    summary: 'ONI drafts the public-facing challenge from government source materials, keeping it broad and prototype-focused. Internal review sharpens the OTA framing, then the package goes to ACC-RI for approval before posting.',
+    involved: ['oni', 'gov', 'acc-ri'],
+    keyDocuments: ['Iterate challenge language', 'Iterate LOE language', 'Iterate Market Research Report', 'Send pre-challenge package to ACC-RI for approval'],
+    exitCriteria: ['Gov Customer approved challenge draft', 'ACC-RI approved challenge draft'],
   },
   '03-challenge-live': {
     summary: 'The challenge is live on the marketplace. Industry discovers it and submits proposals. ONI manages the posting, routes clarification questions to government, and tracks incoming submissions.',
     involved: ['oni', 'gov', 'vendor'],
-    keyDocuments: ['Published Challenge', 'Vendor Notifications', 'Q&A Forum / Amendment Log'],
-    exitCriteria: ['Challenge live on marketplace', 'Vendors notified', 'Submission deadline reached'],
+    keyDocuments: ['[Post challenge to marketplace](/docs/marketplace-workflows/01-posting-a-challenge)', 'Get signed NDAs from Gov Customer evaluators', 'Get Gov Customer to sign AOR Roles & Responsibilities', 'Save NDAs to Google Drive as they come in', 'Send NDAs and AOR to ACC-RI the day before challenge closes', 'Gov Customer completes Non-RTD&E Funding Justification (if using non-RDTE funds)', 'Route industry clarification questions to Gov Customer'],
+    exitCriteria: ['Challenge live on marketplace', 'Signed NDAs collected and sent to ACC-RI', 'Signed AOR collected and sent to ACC-RI', 'Submission deadline reached'],
   },
   '04-evaluation': {
     summary: 'Government SMEs evaluate submissions and make a selection decision. ONI facilitates the review process, normalizes submissions, and prepares selection notifications.',
