@@ -63,11 +63,7 @@ const quickLinks = [
     links: [
       { name: 'Posting a Challenge', slug: 'docs/marketplace-workflows/01-posting-a-challenge' },
       { name: 'Challenge Closeout Package', slug: 'docs/marketplace-workflows/02-challenge-closeout-package' },
-      { name: 'Processing an Invoice', slug: 'docs/marketplace-workflows/03-processing-an-invoice' },
       { name: 'AI Grader', slug: 'docs/marketplace-workflows/05-ai-grader' },
-      { name: 'Requesting Updated Proposal', slug: 'docs/marketplace-workflows/06-requesting-updated-proposal' },
-      { name: 'Fair & Reasonable Pricing', slug: 'docs/marketplace-workflows/07-fair-and-reasonable-pricing' },
-      { name: 'Requesting Reps & Certs', slug: 'docs/marketplace-workflows/08-requesting-reps-and-certs' },
     ],
   },
   {
@@ -108,16 +104,10 @@ export default function HomePage() {
       <div className="mb-10">
         <h1 className="text-3xl font-bold mb-3">ONI PM Wiki</h1>
         <p className="text-muted-foreground text-lg max-w-2xl">
-          Program Manager knowledge base for ONI&apos;s OTA marketplace workflow — from challenge
-          intake through contract execution, invoicing, and archive.
+          Program Manager knowledge base for ONI&apos;s OTA marketplace workflow. Each stage of the
+          pipeline has clearly outlined email templates, document templates, and exit criteria to
+          confirm before proceeding to the next stage.
         </p>
-        <div className="mt-4 p-4 bg-primary/5 border border-primary/20 rounded-lg">
-          <p className="text-sm font-medium text-primary">Core PM Principle</p>
-          <p className="text-sm mt-1 text-foreground/80">
-            Keep the public challenge broad, prototype-focused, and centered on the operational need
-            — not a prescriptive solution. Government can specify more detail in LOEs/SOW later.
-          </p>
-        </div>
       </div>
 
       {/* Pipelines */}
@@ -188,33 +178,6 @@ export default function HomePage() {
       {/* Stakeholder Legend */}
       <div className="mt-12 mb-8">
         <StakeholderLegend />
-      </div>
-
-      {/* Status Definitions */}
-      <div className="mt-8 border border-border rounded-lg p-5 bg-card">
-        <h3 className="font-semibold mb-3">Status Flow Quick Reference</h3>
-        <div className="space-y-3 text-sm">
-          <div>
-            <span className="font-medium text-blue-700">Challenge:</span>{' '}
-            <span className="text-muted-foreground">
-              Intake → Drafting → Gov Review → Live → Evaluating → Selection Pending → Vendor
-              Coordination → Award In Progress → Executing → Archived
-            </span>
-          </div>
-          <div>
-            <span className="font-medium text-emerald-700">Contract:</span>{' '}
-            <span className="text-muted-foreground">
-              SOW Finalizing → Agreement Finalizing → Fully Executed → Modification In Work →
-              Executing → Closed
-            </span>
-          </div>
-          <div>
-            <span className="font-medium text-amber-700">Invoice:</span>{' '}
-            <span className="text-muted-foreground">
-              Anticipated → Vendor Invoice Received → ONI Review → Submitted to ACC-RI → Closed
-            </span>
-          </div>
-        </div>
       </div>
     </div>
   )
