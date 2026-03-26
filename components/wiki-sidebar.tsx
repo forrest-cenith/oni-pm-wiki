@@ -60,11 +60,7 @@ const primaryNav: NavSection[] = [
       { title: 'Drafting Challenge', slug: 'docs/challenge-pipeline/02-drafting-challenge' },
       { title: 'Challenge Live', slug: 'docs/challenge-pipeline/03-challenge-live' },
       { title: 'Evaluation', slug: 'docs/challenge-pipeline/04-evaluation' },
-      { title: 'Vendor Coordination', slug: 'docs/challenge-pipeline/05-vendor-coordination', children: [
-        { title: 'Requesting Updated Proposal', slug: 'docs/marketplace-workflows/06-requesting-updated-proposal' },
-        { title: 'Fair & Reasonable Pricing', slug: 'docs/marketplace-workflows/07-fair-and-reasonable-pricing' },
-        { title: 'Requesting Reps & Certs', slug: 'docs/marketplace-workflows/08-requesting-reps-and-certs' },
-      ]},
+      { title: 'Vendor Coordination', slug: 'docs/challenge-pipeline/05-vendor-coordination' },
       { title: 'Prototype Execution', slug: 'docs/challenge-pipeline/06-prototype-execution' },
       { title: 'Production Execution', slug: 'docs/challenge-pipeline/07-production-execution', children: [
         { title: 'Success Memorandum', slug: 'docs/marketplace-workflows/04-success-memorandum' },

@@ -87,8 +87,8 @@ export const challengeStageStories: Record<string, StageStory> = {
   '05-vendor-coordination': {
     summary: 'After selection, ONI coordinates between the vendor, government, and ACC-RI to align the proposal with the SOW and gather all documents needed for contract execution. This stage often involves multiple revision cycles.',
     involved: ['oni', 'gov', 'vendor', 'acc-ri'],
-    keyDocuments: ['Selection Notification', 'Updated Vendor Proposal', 'W-9 & Reps/Certs', 'SOW Comparison Notes'],
-    exitCriteria: ['Vendor notified', 'Proposal aligned to SOW', 'Admin docs received', 'Package sent to ACC-RI'],
+    keyDocuments: ['Notify vendor of selection', 'Get updated vendor proposal', 'Get vendor W-9 and Reps & Certs'],
+    exitCriteria: ['Vendor provided Reps & Certs', 'Vendor provided updated proposal', 'Vendor provided Fair & Reasonable supporting documents', 'Package sent to ACC-RI for them to make their Project Agreement documents'],
   },
   '06-prototype-execution': {
     summary: 'The contract is executed and prototype work begins. ONI monitors milestones, coordinates between vendor and government, and ensures deliverables track to the agreement. Results are documented for transition decisions.',
