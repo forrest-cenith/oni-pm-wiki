@@ -77,6 +77,30 @@ the full award documentation.
 
 </details>
 
+<details>
+<summary>Vendor Timeline Update (Pending Gov Evaluation) &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+
+**Subject:** [Challenge Name] – Timeline Update
+
+**To:** <span class="badge badge-vendor">Vendor</span>
+
+```
+[Vendor POC Name / Team],
+
+ONI and ACC-Rock Island are standing by and helpfully nudging
+the government customer to complete their evaluation paperwork.
+
+Once they formally submit the selection paperwork, we coordinate
+any revisions necessary for the final SOW and finalize the
+project agreement. Our standard timeline goal is to award and
+begin execution within 30 days of formal selection (depending
+on the number of revision iterations).
+
+We will keep you in the loop on the progress.
+```
+
+</details>
+
 ## Common Hangups & Resolutions
 
 | Hangup | Resolution |
