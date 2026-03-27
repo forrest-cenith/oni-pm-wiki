@@ -66,6 +66,36 @@ Let me know if you have any questions.
 </details>
 
 <details>
+<summary>Selection Notification (Admin Docs Only — Gov to Coordinate Scope) &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+
+**Subject:** [Challenge Name] – Selection Notification
+
+**To:** <span class="badge badge-vendor">Vendor</span>
+
+```
+[Vendor POC Name],
+
+Congratulations — your proposed solution has been selected
+by [Gov Customer Org] for the [Challenge Name] challenge.
+
+To move forward with the process, please fill out and return
+the following administrative documents at your earliest
+convenience:
+
+- W-9 (template attached)
+- Reps and Certs (template attached)
+
+Additionally, please be on the lookout for a follow-up from
+[Gov Customer POC Name] and the [Gov Customer Org] team to
+coordinate any necessary scope, timeline, and cost adjustments
+to proceed with a final SOW and project agreement.
+
+Please let me know if you have any questions.
+```
+
+</details>
+
+<details>
 <summary>Fair & Reasonable Pricing Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
 
 **Subject:** [Challenge Name] – Pricing Details Request
