@@ -130,3 +130,4 @@ award processing. Let me know if you have any questions.
 - Simultaneous coordination works best: ask vendor for readiness while asking government/ACC-RI for precise discrepancy details
 - Treat post-selection like a mini requirements reconciliation process
 - Send one clean package to ACC-RI rather than scattered iterative fragments
+- **While reviewing submissions on the marketplace** to get vendor POC info, go ahead and download their proposal and any reps & certs they uploaded with their submission — drop these into the Copper CRM challenge card so they're easy to find later
