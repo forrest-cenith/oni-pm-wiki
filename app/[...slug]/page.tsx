@@ -40,6 +40,7 @@ function prettifySlugPart(part: string) {
     .replace(/\bSow\b/g, 'SOW')
     .replace(/\bAcc Ri\b/g, 'ACC-RI')
     .replace(/\bOni\b/g, 'ONI')
+    .replace(/\bPm\b/g, 'PM')
     .replace(/\bCrm\b/g, 'CRM')
     .replace(/\bClin\b/g, 'CLIN')
 }

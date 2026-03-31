@@ -75,6 +75,7 @@ const primaryNav: NavSection[] = [
       { title: 'Posting a Challenge', slug: 'docs/marketplace-workflows/01-posting-a-challenge' },
       { title: 'Challenge Closeout Package', slug: 'docs/marketplace-workflows/02-challenge-closeout-package' },
       { title: 'AI Grader', slug: 'docs/marketplace-workflows/05-ai-grader' },
+      { title: 'ONI PM Dashboard', slug: 'docs/marketplace-workflows/09-oni-pm-dashboard' },
     ],
   },
   {
