@@ -19,6 +19,7 @@ ONI pre-fills the Technical Evaluation and Award Selection Recommendation docume
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
 | Technical Evaluation / Award Selection Recommendation | Pre-filled by ONI with vendor names and submission dates; Gov Customer completes evaluation and selection | ONI PM → Gov Customer | [Google Doc](https://docs.google.com/document/d/1Ptuns28PMSY-cE2HE0RkFZp_lcpjvYXd/edit?usp=sharing&ouid=116482897251814755876&rtpof=true&sd=true) |
+| Challenge Overview | Summarizes the challenge details and submission list for the closeout package | ONI PM | [Example](https://docs.google.com/document/d/1L0QbmYiN0027o7iUnBajGFQxCdGnOz5L/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 ## Email Templates
 
