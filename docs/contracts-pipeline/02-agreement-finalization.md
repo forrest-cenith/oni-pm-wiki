@@ -36,7 +36,8 @@ By this point, vendors should have already reviewed the agreement T&Cs via the r
 | W-9 | Input | Vendor tax identification form |
 | Reps and Certs | Input | Vendor representations and certifications |
 | MIPR | Input | Government funding authorization, includes 2% ONI fee |
-| Project Prototype Agreement (PA) | Output | Drafted by ACC-RI; includes finalized SOW as Appendix A, T&Cs as Appendix C |
+| Project Prototype Agreement (PA) | Output | Drafted by ACC-RI; includes finalized SOW as Appendix A, T&Cs as Appendix C — [Template](https://docs.google.com/document/d/1mk-TBZnMRlR0S8z4eDhn2bjKftWotgjR/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
+| ONI Service Agreement | Input | [Google Doc](https://docs.google.com/document/d/136889CwJ2BTJrGwhYvNZKiVzIz7uRrdA/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 ## Email Templates
 

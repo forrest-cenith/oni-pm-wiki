@@ -27,7 +27,7 @@ The updated proposal and pricing backup are routed to ACC-RI, who reviews them a
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| Read-Ahead Agreement Template | Early T&C review for vendor (Appendix C) | ONI | — |
+| Read-Ahead Agreement Template | Early T&C review for vendor (Appendix C) | ONI | [Google Doc](https://docs.google.com/document/d/1mk-TBZnMRlR0S8z4eDhn2bjKftWotgjR/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 | Updated Vendor Proposal | Revised to match finalized government SOW | Vendor | — |
 | Pricing Backup / F&R Support | LCAT detail, rates, hours, material quotes for Fair & Reasonable determination | Vendor | — |
 | W-9 | Tax identification | Vendor | [PDF](https://drive.google.com/file/d/1IDFisM_9c1tUbXDrKV56_QQrySd_fJXh/view?usp=drive_link) |
