@@ -9,7 +9,7 @@ At the same time, ONI kicks off parallel workstreams with the government custome
 
 Three things go out at the time of selection notification:
 
-1. **Vendor** receives selection notification + read-ahead copy of the "ONI x Vendor Agreement" template so they can begin reviewing Terms & Conditions (Appendix C) while the SOW is still being finalized. Appendix A (SOW) will be populated later.
+1. **Vendor** receives selection notification + read-ahead copy of the "ONI Services Agreement" template so they can begin reviewing Terms & Conditions (Appendix C) while the SOW is still being finalized. Appendix A (SOW) will be populated later.
 2. **Vendor** is asked to provide administrative documents (W-9, Reps & Certs).
 3. **Gov Customer** receives MIPR instructions from ONI. One MIPR per contract. **The MIPR must include a 2% ONI fee** — e.g., if $100k is planned to go to the vendor, the MIPR should be for $102k.
 
@@ -30,9 +30,9 @@ The updated proposal and pricing backup are routed to ACC-RI, who reviews them a
 | Read-Ahead Agreement Template | Early T&C review for vendor (Appendix C) | ONI | [Google Doc](https://docs.google.com/document/d/1mk-TBZnMRlR0S8z4eDhn2bjKftWotgjR/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 | Updated Vendor Proposal | Revised to match finalized government SOW | Vendor | — |
 | Pricing Backup / F&R Support | LCAT detail, rates, hours, material quotes for Fair & Reasonable determination | Vendor | — |
-| W-9 | Tax identification | Vendor | [PDF](https://drive.google.com/file/d/1IDFisM_9c1tUbXDrKV56_QQrySd_fJXh/view?usp=drive_link) |
-| Agreement Holder Representations | Vendor certifications (Reps & Certs) | Vendor | [PDF](https://drive.google.com/file/d/1R0-_zE4SbOtbqeTEvwkwz8N3dFJRnTG6/view?usp=drive_link) |
-| MIPR | Government funding authorization (includes 2% ONI fee) | Gov Customer | — |
+| W-9 | Tax identification | Vendor | [PDF](https://drive.google.com/file/d/1UXy9TMGLFmhfK2uIApw8pv1Fh3pFvcfr/view?usp=drive_link) |
+| Agreement Holder Representations | Vendor certifications (Reps & Certs) | Vendor | [PDF](https://drive.google.com/file/d/1PKf8YERo7z9lbk8yH6R2PYC_3_Y8wb8j/view?usp=drive_link) |
+| MIPR | Government funding authorization (includes 2% ONI fee) | Gov Customer | [Instructions](https://docs.google.com/document/d/11601dAIwAU0qRZWXTrm8RGdt7DTEsyVb/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
 
 **Coordination Timeline / Status Tracker:** We use the Description field on the Copper CRM card to track this. Example:
 
@@ -66,11 +66,11 @@ To move forward with the award process, please provide the
 following at your earliest convenience:
 
 1. Administrative documents
-   - W-9
+   - W-9 (template attached)
    - Reps and Certs (template attached)
 
 2. We have also attached a read-ahead copy of the
-   "ONI x Vendor Agreement" template for your review until the
+   "ONI Services Agreement" template for your review until the
    agreement is finalized. Please note:
    - Review Appendix C — these are the Terms and Conditions
      that will govern the agreement
@@ -80,42 +80,6 @@ following at your earliest convenience:
 Once the SOW is finalized, we will follow up with the final
 SOW and request an updated proposal aligned to it, along with
 a cost detail breakdown to support our review process.
-
-Please let me know if you have any questions.
-```
-
-</details>
-
-<details>
-<summary>Selection Notification (Admin Docs Only — Gov to Coordinate Scope) &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
-
-**Subject:** [Challenge Name] – Selection Notification
-
-**To:** <span class="badge badge-vendor">Vendor</span>
-
-```
-[Vendor POC Name],
-
-Congratulations — your proposed solution has been selected
-by [Gov Customer Org] for the [Challenge Name] challenge.
-
-To move forward with the process, please fill out and return
-the following administrative documents at your earliest
-convenience:
-
-- W-9 (template attached)
-- Reps and Certs (template attached)
-
-We have also attached a read-ahead copy of the
-"ONI x Vendor Agreement" template for your review until the
-agreement is finalized. Please review Appendix C (Terms and
-Conditions). Do not take action on Appendix A — the final
-Statement of Work will be provided separately.
-
-Additionally, please be on the lookout for a follow-up from
-[Gov Customer POC Name] and the [Gov Customer Org] team to
-coordinate any necessary scope, timeline, and cost adjustments
-to proceed with a final SOW and project agreement.
 
 Please let me know if you have any questions.
 ```
