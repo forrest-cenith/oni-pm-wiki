@@ -2,28 +2,41 @@
 
 ## Overview
 
-The contracting package is being assembled and routed for final execution after the SOW, proposal, and administrative package are acceptable. This stage focuses on ensuring all required documents are present, data is consistent across the package, and the agreement is ready for signatures. The ONI PM coordinates between the vendor, government sponsor, and ACC-RI to close out any remaining paperwork gaps.
+ACC-RI drafts the Project Prototype Agreement (PA), reviews vendor proposals against the finalized SOW, conducts the Fair & Reasonable price determination, and drops the finalized SOW into the PA. The ONI PM's role at this stage is ensuring all inputs are delivered to ACC-RI clean and on time, and tracking progress through to signature.
+
+By this point, vendors should have already reviewed the agreement T&Cs via the read-ahead copy sent at selection notification (see [Vendor Coordination](/docs/challenge-pipeline/05-vendor-coordination)), so the only new content at signature time is Appendix A (the finalized SOW).
 
 ## Key Tasks / Checklist
 
-- [ ] Ensure all required documents are present in the package
+### ONI PM
 - [ ] Confirm vendor administrative forms received (W-9, reps and certs, etc.)
-- [ ] Confirm agreement data matches the final SOW and proposal (cost, scope, POP, deliverables)
-- [ ] Coordinate with ACC-RI on any remaining paperwork or corrections
-- [ ] Track signature and status progression through the approval chain
-- [ ] Resolve any discrepancies flagged during ACC-RI review
+- [ ] Confirm finalized SOW has been sent to vendor and updated proposal received
+- [ ] Confirm vendor updated proposal includes cost detail breakdown (LCATs / Rates / Hours / Material Quotes)
+- [ ] Route finalized SOW + updated vendor proposal + pricing backup to ACC-RI
+- [ ] Confirm gov customer MIPR is prepared (including 2% ONI fee)
 - [ ] Confirm funding documentation is in order
+- [ ] Track signature and status progression through the approval chain
 - [ ] Notify stakeholders of expected execution timeline
+
+### ACC-RI (Agreement Officer)
+- [ ] Review updated vendor proposal against finalized SOW for alignment
+- [ ] Review pricing backup for Fair & Reasonable determination
+- [ ] Draft Project Prototype Agreement (PA) between gov customer team, ONI, and ACC-RI
+- [ ] Drop finalized SOW into PA (Appendix A)
+- [ ] Route PA to vendors for signature
+- [ ] Distribute fully executed contracts
 
 ## Documents Needed or Produced
 
 | Document | Direction | Notes |
 |---|---|---|
 | Final SOW | Input | Accepted and stable SOW from the prior stage |
-| Project Agreement / Award Package | Output | Assembled contracting package for execution |
+| Updated Vendor Proposal | Input | Aligned to finalized SOW |
+| Pricing Backup | Input | LCATs / Rates / Hours / Material Quotes for F&R determination |
 | W-9 | Input | Vendor tax identification form |
 | Reps and Certs | Input | Vendor representations and certifications |
-| Funding / Admin Documents | Input | Government funding authorization and administrative forms |
+| MIPR | Input | Government funding authorization, includes 2% ONI fee |
+| Project Prototype Agreement (PA) | Output | Drafted by ACC-RI; includes finalized SOW as Appendix A, T&Cs as Appendix C |
 
 ## Email Templates
 
@@ -63,10 +76,10 @@ Thank you,
 
 | Stakeholder | Role |
 |---|---|
-| ONI PM | Assembles package, coordinates across parties, tracks status |
-| ACC-RI | Reviews package for compliance, routes for signature, executes agreement |
-| Vendor | Provides required admin forms, confirms proposal data |
-| Government Sponsor | Confirms scope/funding, provides government-side approvals |
+| ONI PM | Ensures all inputs (SOW, proposals, pricing backup, admin docs, MIPR) are delivered to ACC-RI clean and on time; tracks status |
+| ACC-RI (Agreement Officer) | Reviews proposals against SOW, conducts F&R determination, drafts PA, drops in finalized SOW, routes for signature, distributes executed contracts |
+| Vendor | Provides updated proposal with cost detail breakdown, admin forms (W-9, reps and certs), signs PA |
+| Gov Customer | Finalizes SOW, prepares MIPR (including 2% ONI fee), provides government-side approvals |
 
 ## Typical Timeline
 

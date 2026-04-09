@@ -3,14 +3,36 @@
 ## Overview
 After selection, ONI coordinates with the selected vendor to gather/update the documents needed for contract execution and aligns them to the government SOW/LOEs and ACC-RI requirements. This stage often involves multiple revision cycles.
 
+At the same time, ONI kicks off parallel workstreams with the government customer (MIPR preparation) and gives vendors an early look at the agreement terms so they can review T&Cs while the SOW is being finalized.
+
+## Day 0 — Selection Notification Actions
+
+Three things go out at the time of selection notification:
+
+1. **Vendor** receives selection notification + read-ahead copy of the "ONI x Vendor Agreement" template so they can begin reviewing Terms & Conditions (Appendix C) while the SOW is still being finalized. Appendix A (SOW) will be populated later.
+2. **Vendor** is asked to provide administrative documents (W-9, Reps & Certs).
+3. **Gov Customer** receives MIPR instructions from ONI. One MIPR per contract. **The MIPR must include a 2% ONI fee** — e.g., if $100k is planned to go to the vendor, the MIPR should be for $102k.
+
+> **Why the read-ahead matters:** When the final Project Prototype Agreement (PA) is distributed for signature, the vendor has already reviewed the T&Cs. The only new content is Appendix A (the SOW they helped finalize). This eliminates weeks of legal review at signature time.
+
+## After SOW Is Finalized
+
+Once the SOW is finalized, ONI sends it to the vendor and requests:
+- Updated proposal aligned to the finalized SOW
+- Cost detail breakdown: LCATs / Rates / Hours / Material Quotes
+
+The updated proposal and pricing backup are routed to ACC-RI, who reviews them against the SOW for alignment and conducts the Fair & Reasonable price determination.
+
 ## Documents Needed to Proceed to Prototype Execution
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| Updated Vendor Proposal | Revised to match government SOW | Vendor | — |
-| Pricing Backup / F&R Support | LCAT detail, material costs, cost narrative for Fair & Reasonable determination | Vendor | — |
+| Read-Ahead Agreement Template | Early T&C review for vendor (Appendix C) | ONI | — |
+| Updated Vendor Proposal | Revised to match finalized government SOW | Vendor | — |
+| Pricing Backup / F&R Support | LCAT detail, rates, hours, material quotes for Fair & Reasonable determination | Vendor | — |
 | W-9 | Tax identification | Vendor | [PDF](https://drive.google.com/file/d/1IDFisM_9c1tUbXDrKV56_QQrySd_fJXh/view?usp=drive_link) |
 | Agreement Holder Representations | Vendor certifications (Reps & Certs) | Vendor | [PDF](https://drive.google.com/file/d/1R0-_zE4SbOtbqeTEvwkwz8N3dFJRnTG6/view?usp=drive_link) |
+| MIPR | Government funding authorization (includes 2% ONI fee) | Gov Customer | — |
 
 **Coordination Timeline / Status Tracker:** We use the Description field on the Copper CRM card to track this. Example:
 
@@ -26,7 +48,7 @@ Timeline of Events
 ## Email Templates
 
 <details>
-<summary>Selection Notification and Supporting Documentation Request &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+<summary>Selection Notification with Read-Ahead Agreement &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
 
 **Subject:** [Challenge Name] – Selection Notification
 
@@ -43,24 +65,23 @@ of your submission.
 To move forward with the award process, please provide the
 following at your earliest convenience:
 
-1. Updated proposal aligned to the attached SOW
-   - Ensure alignment with scope, milestones, and deliverables
-   - Confirm ROM and payment schedule
-
-2. Pricing backup to support Fair & Reasonable determination
-   - LCAT detail with estimated hours and rates
-   - Material costs and basis of estimate
-   - Brief narrative on key cost drivers and how you arrived
-     at your proposed total
-   - No formal cost proposal needed — an Excel sheet and/or
-     short write-up is sufficient
-
-3. Administrative documents
+1. Administrative documents
    - W-9
    - Reps and Certs (template attached)
 
-Please submit ASAP to expedite the review and award process.
-Let me know if you have any questions.
+2. We have also attached a read-ahead copy of the
+   "ONI x Vendor Agreement" template for your review until the
+   agreement is finalized. Please note:
+   - Review Appendix C — these are the Terms and Conditions
+     that will govern the agreement
+   - Do not take action on Appendix A — the final Statement
+     of Work will be provided separately once finalized
+
+Once the SOW is finalized, we will follow up with the final
+SOW and request an updated proposal aligned to it, along with
+a cost detail breakdown to support our review process.
+
+Please let me know if you have any questions.
 ```
 
 </details>
@@ -85,12 +106,46 @@ convenience:
 - W-9 (template attached)
 - Reps and Certs (template attached)
 
+We have also attached a read-ahead copy of the
+"ONI x Vendor Agreement" template for your review until the
+agreement is finalized. Please review Appendix C (Terms and
+Conditions). Do not take action on Appendix A — the final
+Statement of Work will be provided separately.
+
 Additionally, please be on the lookout for a follow-up from
 [Gov Customer POC Name] and the [Gov Customer Org] team to
 coordinate any necessary scope, timeline, and cost adjustments
 to proceed with a final SOW and project agreement.
 
 Please let me know if you have any questions.
+```
+
+</details>
+
+<details>
+<summary>MIPR Instructions to Gov Customer &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-gov">Gov Customer</span></summary>
+
+**Subject:** [Challenge Name] – MIPR Preparation Instructions
+
+**To:** <span class="badge badge-gov">Gov Customer</span>
+
+```
+[Gov Customer POC Name],
+
+As we move toward finalizing the prototype agreement(s) for
+[Challenge Name], your team should begin preparing a MIPR for
+each contract that will be created.
+
+MIPR instructions are attached to this email, and we can sync
+with ACC-RI to answer any questions you may have about that
+process.
+
+Important: Please include a 2% ONI fee in each MIPR. For
+example, if $100k is planned to go to the vendor, the MIPR
+should be for $102k.
+
+Let us know if you have any questions or would like to set up
+a call to walk through the process.
 ```
 
 </details>
@@ -161,3 +216,5 @@ award processing. Let me know if you have any questions.
 - Treat post-selection like a mini requirements reconciliation process
 - Send one clean package to ACC-RI rather than scattered iterative fragments
 - **While reviewing submissions on the marketplace** to get vendor POC info, go ahead and download their proposal and any reps & certs they uploaded with their submission — drop these into the Copper CRM challenge card so they're easy to find later
+- **Send the read-ahead agreement template with the selection notification** — this lets vendors review T&Cs in parallel with SOW finalization, so signing is fast when the PA is ready
+- **Send MIPR instructions to the gov customer at selection notification** — MIPR preparation can happen in parallel with everything else. Don't forget the 2% ONI fee.
