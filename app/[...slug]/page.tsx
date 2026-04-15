@@ -6,6 +6,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import Link from 'next/link'
 import { ChevronRight, Home } from 'lucide-react'
+import { CopyableCodeBlock } from '@/components/copyable-code-block'
 
 // Pages that live in marketplace-workflows/ but belong to other pipeline sections
 const breadcrumbOverrides: Record<string, { section: string; parent: string }> = {
@@ -151,6 +152,9 @@ export default async function WikiPage({
             mdxOptions: {
               remarkPlugins: [remarkGfm],
             },
+          }}
+          components={{
+            pre: CopyableCodeBlock,
           }}
         />
       </article>

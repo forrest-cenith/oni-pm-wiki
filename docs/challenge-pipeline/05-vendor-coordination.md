@@ -9,8 +9,8 @@ At the same time, ONI kicks off parallel workstreams with the government custome
 
 Three things go out at the time of selection notification:
 
-1. **Vendor** receives selection notification + read-ahead copy of the "ONI Services Agreement" template so they can begin reviewing Terms & Conditions (Appendix C) while the SOW is still being finalized. Appendix A (SOW) will be populated later.
-2. **Vendor** is asked to provide administrative documents (W-9, Reps & Certs).
+1. **Vendor** receives selection notification + read-ahead copies of the **Prototype Project Agreement (PA)** template and the **ONI Service Agreement** template so they can begin reviewing Terms & Conditions while the SOW is still being finalized. ONI Contracts is cc'd on this email.
+2. **Vendor** is asked to provide administrative documents (W-9, Reps & Certs) — returned to both the ONI PM and ONI Contracts (cc'd). Use the **Award Confirmed** email variant if the gov customer has committed to award; use the **Still Evaluating** variant if they haven't yet pulled the trigger.
 3. **Gov Customer** receives MIPR instructions from ONI. One MIPR per contract. **The MIPR must include a 2% ONI fee** — e.g., if $100k is planned to go to the vendor, the MIPR should be for $102k.
 
 > **Why the read-ahead matters:** When the final Project Prototype Agreement (PA) is distributed for signature, the vendor has already reviewed the T&Cs. The only new content is Appendix A (the SOW they helped finalize). This eliminates weeks of legal review at signature time.
@@ -27,7 +27,8 @@ The updated proposal and pricing backup are routed to ACC-RI, who reviews them a
 
 | Document | Purpose | Owner | Template Link |
 |----------|---------|-------|---------------|
-| Read-Ahead Agreement Template | Early T&C review for vendor (Appendix C) | ONI | [Google Doc](https://docs.google.com/document/d/1mk-TBZnMRlR0S8z4eDhn2bjKftWotgjR/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
+| Prototype Project Agreement (PA) | Read-ahead template for vendor — POCs, IP/data rights, vendor data assertions | ONI | [Google Doc](https://docs.google.com/document/d/1mk-TBZnMRlR0S8z4eDhn2bjKftWotgjR/edit?usp=drive_link&ouid=116482897251814755876&rtpof=true&sd=true) |
+| ONI T&Cs Template | Read-ahead T&Cs for vendor review; placeholders filled after SOW finalization | ONI | [Google Drive](https://drive.google.com/file/d/105ncqAwjr5kStGRkfv3wljGP4_7_x5LE/view?usp=drive_link) |
 | Updated Vendor Proposal | Revised to match finalized government SOW | Vendor | — |
 | Pricing Backup / F&R Support | LCAT detail, rates, hours, material quotes for Fair & Reasonable determination | Vendor | — |
 | W-9 | Tax identification | Vendor | [PDF](https://drive.google.com/file/d/1UXy9TMGLFmhfK2uIApw8pv1Fh3pFvcfr/view?usp=drive_link) |
@@ -48,11 +49,13 @@ Timeline of Events
 ## Email Templates
 
 <details>
-<summary>Selection Notification with Read-Ahead Agreement &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+<summary>Selection Notification — Award Confirmed &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+
+> **Use this variant when** the government customer has committed to award. It includes language inviting the vendor to get a head start on redlining T&Cs with ONI Contracts.
 
 **Subject:** [Challenge Name] – Selection Notification
 
-**To:** <span class="badge badge-vendor">Vendor</span>
+**To:** <span class="badge badge-vendor">Vendor</span> · **CC:** <span class="badge badge-oni">ONI Contracts</span>
 
 ```
 [Vendor POC Name],
@@ -62,20 +65,94 @@ by the Government customer for the [Challenge Name]
 opportunity. We appreciate your engagement and the strength
 of your submission.
 
-To move forward with the award process, please provide the
-following at your earliest convenience:
+To continue to make the process go smoothly, you'll be in
+contact with the government customer POC to negotiate the
+scope, pricing, and success objectives. ONI will make sure
+everyone is aligned on the contract terms and conditions in
+the meantime.
 
-1. Administrative documents
+Please review the following two templates:
+
+1. Prototype Project Agreement (PA) — Please review and
+   make any necessary updates to the following:
+   - POCs — Please fill out for contractor/subcontractor
+   - Intellectual Property / Data Rights — Please review
+     this section
+   - Vendor Data Assertions — Please enter any assertions
+     based on the data rights
+
+   Note: The government customer may have already been in
+   contact to make sure you're aligned on the deliverables
+   and success objectives as well.
+
+2. ONI Service Agreement — Please review the Terms &
+   Conditions. Note that placeholders will be filled in
+   once the Statement of Work has been finalized.
+
+3. Administrative documents — Please return the following
+   to myself and ONI Contracts (cc'd):
    - W-9 (template attached)
    - Reps and Certs (template attached)
 
-2. We have also attached a read-ahead copy of the
-   "ONI Services Agreement" template for your review until the
-   agreement is finalized. Please note:
-   - Review Appendix C — these are the Terms and Conditions
-     that will govern the agreement
-   - Do not take action on Appendix A — the final Statement
-     of Work will be provided separately once finalized
+   When sending your W-9 / Reps and Certs back to ONI
+   Contracts, if you would like to get a head start on
+   redlining T&Cs, please request ONI Contracts provide
+   you with templates (to facilitate the award process).
+
+Once the SOW is finalized, we will follow up with the final
+SOW and request an updated proposal aligned to it, along with
+a cost detail breakdown to support our review process.
+
+Please let me know if you have any questions.
+```
+
+</details>
+
+<details>
+<summary>Selection Notification — Gov Customer Still Evaluating &nbsp; <span class="badge badge-oni">ONI</span> → <span class="badge badge-vendor">Vendor</span></summary>
+
+> **Use this variant when** the government customer has not yet committed to award and is still gathering information. It omits the "head start on redlining T&Cs" language to avoid premature coordination.
+
+**Subject:** [Challenge Name] – Selection Notification
+
+**To:** <span class="badge badge-vendor">Vendor</span> · **CC:** <span class="badge badge-oni">ONI Contracts</span>
+
+```
+[Vendor POC Name],
+
+Congratulations — your proposed solution has been selected
+by the Government customer for the [Challenge Name]
+opportunity. We appreciate your engagement and the strength
+of your submission.
+
+To continue to make the process go smoothly, you'll be in
+contact with the government customer POC to negotiate the
+scope, pricing, and success objectives. ONI will make sure
+everyone is aligned on the contract terms and conditions in
+the meantime.
+
+Please review the following two templates:
+
+1. Prototype Project Agreement (PA) — Please review and
+   make any necessary updates to the following:
+   - POCs — Please fill out for contractor/subcontractor
+   - Intellectual Property / Data Rights — Please review
+     this section
+   - Vendor Data Assertions — Please enter any assertions
+     based on the data rights
+
+   Note: The government customer may have already been in
+   contact to make sure you're aligned on the deliverables
+   and success objectives as well.
+
+2. ONI Service Agreement — Please review the Terms &
+   Conditions. Note that placeholders will be filled in
+   once the Statement of Work has been finalized.
+
+3. Administrative documents — Please return the following
+   to myself and ONI Contracts (cc'd):
+   - W-9 (template attached)
+   - Reps and Certs (template attached)
 
 Once the SOW is finalized, we will follow up with the final
 SOW and request an updated proposal aligned to it, along with
@@ -180,5 +257,6 @@ award processing. Let me know if you have any questions.
 - Treat post-selection like a mini requirements reconciliation process
 - Send one clean package to ACC-RI rather than scattered iterative fragments
 - **While reviewing submissions on the marketplace** to get vendor POC info, go ahead and download their proposal and any reps & certs they uploaded with their submission — drop these into the Copper CRM challenge card so they're easy to find later
-- **Send the read-ahead agreement template with the selection notification** — this lets vendors review T&Cs in parallel with SOW finalization, so signing is fast when the PA is ready
+- **Send both read-ahead templates (PA + ONI T&Cs) with the selection notification** — this lets vendors review T&Cs in parallel with SOW finalization, so signing is fast when the PA is ready
+- **Only use the "head start on redlining T&Cs" email variant when award is confirmed** — if the gov customer is still evaluating, use the simpler variant to avoid premature coordination overhead with ONI Contracts
 - **Send MIPR instructions to the gov customer at selection notification** — MIPR preparation can happen in parallel with everything else. Don't forget the 2% ONI fee.

@@ -203,6 +203,39 @@
   font-size: inherit;
 }
 
+/* Copyable code block wrapper */
+.copyable-code-wrapper {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.copyable-code-wrapper pre {
+  margin-bottom: 0;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  color: oklch(0.7 0 0);
+  background: oklch(0.25 0.01 260);
+  border: 1px solid oklch(0.35 0.01 260);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+
+.copy-button:hover {
+  color: oklch(0.92 0 0);
+  background: oklch(0.3 0.01 260);
+}
+
 /* Blockquotes */
 .prose blockquote {
   border-left: 4px solid var(--primary);
